@@ -1,0 +1,212 @@
+@import "variables";
+body {
+    font-family: Segoe UI;
+  }
+  
+ @import "citas";
+  
+@import "fuentebanner";
+  
+@import "consulta";
+  
+@import "tlfconsultas";
+  
+@import "exp";
+  
+@import "expimg";
+
+  .w100 {
+    width: 100%;
+  }
+  
+  .space {
+    margin-left: 50px;
+  }
+  
+  .space3 {
+    margin-left: 230px;
+  }
+  
+  @import "empresa";
+  
+  .space2 {
+    margin-left: 50px;
+  }
+  
+ @import "logo";
+  
+  #color {
+    color: $verde2;
+  }
+  
+ @import "titulo";
+  
+  #tdescrip {
+    font-size: 20px;
+  }
+  
+  #ultimo {
+    margin-top: 50px;
+  }
+  
+  .color {
+    color: $azulcielo;
+    display: flex;
+    float: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .colorYoutube {
+    color: $rojo;
+  }
+  
+  .colorTwitter {
+    color: $colortwitter;
+  }
+  
+  .colorInstagram {
+    color: $colorinstagram;
+  }
+  
+  .colorFacebook {
+    color: $colorfacebook;
+  }
+  
+  .yellow {
+    color: $amarillo;
+  }
+  
+  .sizelogo {
+    width: 20%;
+    height: 1%;
+  }
+  
+@import "encabezado";
+
+@import "encabezado2";
+
+
+  #texto {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #center {
+    display: flex;
+  }
+  
+  .margin {
+    margin-top: 3%;
+  }
+  
+  .posicion {
+    margin-right: 30px;
+  }
+  
+  .move {
+    margin-left: 50px;
+  }
+  
+  .estiloNum {
+    font-size: x-large;
+    margin-left: 4%;
+  }
+  
+ @import "banner";
+  
+ @import "bannercontacto";
+  
+  .bg-green {
+    background-color: $bgcolor;
+  }
+  
+  .initial {
+    padding-left: initial;
+    padding-right: initial;
+  }
+  
+@import "bannergaleria";
+
+@import "derechos";
+  
+  .f {
+    float: left;
+  }
+  
+ @import "footerimg";
+  
+  .col-centered {
+    display: inline-block;
+  }
+  
+  footer div h3 {
+    margin-bottom: 3%;
+  }
+#audioo:hover, #audioo:focus, #audioo:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+#audioo
+{
+  float:right;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+#sepia{
+filter:sepia(47%);
+}
+#satura{
+  filter:saturate(150%);
+}
+#medio{
+  width:500px; 
+  height:500px; 
+  margin-left: 38%;
+}
+#svg{
+  margin-top: 5%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+.fondocss {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 30%;
+  z-index: -1;
+}
